@@ -1,0 +1,104 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background-image: url("test.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+header h1 {
+    background-color: yellow;
+}
+
+blockquote {
+    width: 45%;
+    margin: 80px auto;
+    background-color: grey;
+    border-left: 3px firebrick solid;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+a {
+    font-size: 20px;
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+q {
+    margin: 80px auto;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px firebrick solid;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.farmer {
+    border-left: 3px firebrick solid;
+}
+
+.villager {
+    border-left: 3px blue solid;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+table tr {
+    background-color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: grey;
+}
+
+ul li:nth-child(1) {
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-5.33/main/Assets/bien.png?token=AVIIJ6LBH4A5OJZ55XCLU5LBF43DO");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+ul li:nth-child(2) {
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-5.33/main/Assets/mal.png?token=AVIIJ6IIMJADKUXT5DI3GR3BF43QK");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+ul li:nth-child(3) {
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-5.33/main/Assets/chat.png?token=AVIIJ6IXC3LTFEBM6LJNOW3BF43R6");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+p:nth-child(1) {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
